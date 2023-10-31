@@ -3,7 +3,9 @@ pipeline{
       stages{
          stage('build')
 	 {
+	 steps{
           echo "hello this is build"
+	  }
 	 }
       }
 
